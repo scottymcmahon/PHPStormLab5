@@ -11,7 +11,7 @@ $password = $_POST["Password"];
 
 if ($username =="username" && $password =="password")
 {
-    setcookie('access_level_cookie', 'standarduser');
+    setcookie('access_level_cookie', 'standardUser');
 }
 
 header('Location: loggedIn.php');
